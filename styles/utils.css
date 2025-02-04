@@ -1,0 +1,32 @@
+.flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+}
+
+.flow > *:where(:not(:first-child)) {
+    margin-top: var(--flow-spacer, 1em);
+}
+
+.bg-100 {
+    background-color: var(--clr-primary-100);
+}
+
+.bg-200 {
+    background-color: var(--clr-primary-200);
+}
+
+.bg-300 {
+    background-color: var(--clr-primary-300);
+}
+
+.bg-white {
+    background-color: var(--clr-white);
+}
+
+.text-light {
+    color: var(--clr-white);
+}
+
+.text-dark {
+    color: var(--clr-primary-300);
+}
