@@ -2,16 +2,16 @@
     font-family: 'Barlow Semi Condensed';
     src: local('Barlow Semi Condensed'),
          local('BarlowSemiCondensed'),
-         url('/assets/fonts/BarlowSemiCondensed-Medium.woff2') format('woff2'),
-         url('/assets/fonts/BarlowSemiCondensed-Medium.woff')  format('woff');
+         url('./assets/fonts/BarlowSemiCondensed-Medium.woff2') format('woff2'),
+         url('./assets/fonts/BarlowSemiCondensed-Medium.woff')  format('woff');
     font-weight: 500;
 }
 @font-face {
     font-family: 'Barlow Semi Condensed';
     src: local('Barlow Semi Condensed'),
          local('BarlowSemiCondensed'),
-         url('/assets/fonts/BarlowSemiCondensed-SemiBold.woff2') format('woff2'),
-         url('/assets/fonts/BarlowSemiCondensed-SemiBold.woff')  format('woff');
+         url('./assets/fonts/BarlowSemiCondensed-SemiBold.woff2') format('woff2'),
+         url('./assets/fonts/BarlowSemiCondensed-SemiBold.woff')  format('woff');
     font-weight: 600;
 }
 
